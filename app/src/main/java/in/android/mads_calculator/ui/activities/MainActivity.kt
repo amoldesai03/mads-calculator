@@ -5,6 +5,7 @@ import `in`.android.mads_calculator.databinding.LayoutCalculatorBinding
 import `in`.android.mads_calculator.utils.Calculator
 import `in`.android.mads_calculator.utils.toHistory
 import `in`.android.mads_calculator.utils.toggleVisibility
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.text.Spannable

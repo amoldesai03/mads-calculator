@@ -4,6 +4,7 @@ import `in`.android.mads_calculator.R
 import `in`.android.mads_calculator.databinding.LayoutAuthenticationBinding
 import `in`.android.mads_calculator.utils.snack
 import `in`.android.mads_calculator.utils.toggleVisibility
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
@@ -15,7 +16,7 @@ import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 
 
-class AuthenticationActivity : AppCompatActivity(), View.OnClickListener,
+class AuthenticationActivity : Activity(), View.OnClickListener,
     OnCompleteListener<AuthResult> {
 
     private lateinit var binding: LayoutAuthenticationBinding
