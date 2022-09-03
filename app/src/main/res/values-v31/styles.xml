@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashActivity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowSplashScreenBackground">#99000000</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+
+    </style>
+</resources>

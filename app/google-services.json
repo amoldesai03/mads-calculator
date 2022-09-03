@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "532354357134",
+    "project_id": "mads-calculator-4cc6b",
+    "storage_bucket": "mads-calculator-4cc6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532354357134:android:2c7c9ec1675980b52db6df",
+        "android_client_info": {
+          "package_name": "in.android.mads_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532354357134-f0i85lo1vueik1li3k32eopekmrg6nag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.android.mads_calculator",
+            "certificate_hash": "7530615bd50ed764f4593b3c712f9af5a05f5f8b"
+          }
+        },
+        {
+          "client_id": "532354357134-dd0lghuk9nrc238af2crsjhmd1i3hciq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzQIJosCwYHzp4Oy0h-nX7-hSQoBI4Sb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532354357134-dd0lghuk9nrc238af2crsjhmd1i3hciq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
