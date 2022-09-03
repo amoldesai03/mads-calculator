@@ -64,7 +64,7 @@ class AuthenticationActivity : AppCompatActivity(), View.OnClickListener,
                 }
 
                 btnSkip -> {
-
+                    loadCalculator()
                 }
             }
         }
@@ -126,6 +126,7 @@ class AuthenticationActivity : AppCompatActivity(), View.OnClickListener,
     }
 
     fun loadCalculator() {
+        finish()
         startActivity(Intent(this, MainActivity::class.java))
     }
 }

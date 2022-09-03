@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private var lastAnswer = ""
     private var historyMap = mutableMapOf<String, String>()
     lateinit var auth: FirebaseAuth
-    lateinit var database: DatabaseReference
+
 
 
     private lateinit var binding: LayoutCalculatorBinding
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             } else {
                 binding.history.toggleVisibility()
                 historyMap[lastExpression] = lastAnswer
-                database.updateChildren(historyMap as Map<String, Any>)
+
 
             }
 
@@ -88,8 +88,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun checkLoginStatus() {
         auth.currentUser?.let { user ->
-            val dbPath = user.uid
-            database = FirebaseDatabase.getInstance().getReference(dbPath).child("history")
             binding.logout.toggleVisibility()
             binding.logout.setOnClickListener {
                 auth.signOut()
